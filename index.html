@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculate Square</title>
+        <script>
+                function calculatesquare()
+                    {
+                        var x= prompt("Please enter a number");
+                        x=x*x;
+                        console.log("Sqaure root of your number is " + x)
+                        document.getElementById("insert").innerHTML ="Sqaure root is " + x;
+                    }  
+            </script>
+    </head>
+    <body>
+        <h1>Calculate Square of any Number</h1>
+        <button onclick= "calculatesquare();">Click to Enter a number</button>
+        <p id="insert"></p>
+        <p></p>
+        
+    </body>
+</html>
